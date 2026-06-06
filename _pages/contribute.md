@@ -24,9 +24,9 @@ Thank you for contributing to our development of an open and transparent Federal
 
 To contribute to this site, you can:
 
-- [Open an issue](#open-an-issue) - make a suggestion or correction to the content on this site.
-- [Add a new page](#add-a-page) - create a new page to add to this site.
-- [Edit an existing page](#edit-a-page) - submit direct changes and line edits to content on this site.
+- [Open an issue](#open-an-issue){:class="usa-link"} - make a suggestion or correction to the content on this site.
+- [Add a new page](#add-a-page){:class="usa-link"} - create a new page to add to this site.
+- [Edit an existing page](#edit-a-page){:class="usa-link"} - submit direct changes and line edits to content on this site.
 
 Using GitHub as a first-time user can be overwhelming. An introduction video is available from DigitalGov on YouTube: [Introduction to GitHub](https://youtu.be/uNa9GOtM6NE){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
 
@@ -59,12 +59,12 @@ Consider the audience when you submit content. Plain language benefits a broad a
 
 The following are useful resources for plain language, writing, and style:
 
-- [18F Content Guide](https://content-guide.18f.gov/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
+<!-- - [18F Content Guide](https://content-guide.18f.gov/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} -->
 - [Federal Plain Language Guidelines](http://www.plainlanguage.gov/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 
 ## Thanks
 
-The contributing framework, the licensing framework, and the idea for providing this content as open-source are based on work from [the 18F office](https://18f.gsa.gov/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}.
+The contributing framework, the licensing framework, and the idea for providing this content as open-source are based on work from the 18F office.
 
 ## Open an Issue
 

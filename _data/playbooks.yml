@@ -1,4 +1,4 @@
-# The 11 FICAM Playbooks
+# The FICAM Playbooks
 # From: https://playbooks.idmanagement.gov/playbooks/
 # Date: 04/18/2023
 # Data used on site's front page, lower half titled Playbooks.
@@ -20,23 +20,23 @@
 
 - title: Cloud Identity Playbook
   type: Webpage
-  pubdate: 2022-12
+  pubdate: 2026-03
   description: The Cloud Identity Playbook is a four-step playbook to start or further expand the use of Workforce ICAM Services delivered in a cloud operating model.
   url: "/playbooks/cloud/"
   header: "/assets/playbooks/headers/playbook_04.webp"
   target: _self
 
-- title: Digital Autopen Playbook
+- title: Delegated Digital Signature Playbook
   type: Webpage
-  pubdate: 2023-03
-  description: This playbook outlines the process for an agency to implement a Digital Autopen for Federal Register documents.
-  url: "/playbooks/autopen/"
+  pubdate: 2026-03
+  description: This playbook outlines the process for an agency to implement a Delegated Digital Signature for Federal Register documents. 
+  url: "/playbooks/dds/"
   header: "/assets/playbooks/headers/playbook_02.webp"
   target: _self
 
 - title: Digital Identity Risk Assessment Playbook
   type: Webpage
-  pubdate: 2020-09
+  pubdate: 2025-06
   description: The Digital Identity Risk Assessment playbook is a six-step playbook for completing a digital identity risk assessment as described in OMB Memo 19-17 and NIST Special Publication 800-63-3.
   url: "/playbooks/dira/"
   header: "/assets/playbooks/headers/playbook_03.webp"
@@ -44,7 +44,7 @@
 
 - title: Digital Worker Identity Playbook
   type: Webpage
-  pubdate: 2022-12
+  pubdate: 2025-04
   description: The Digital Worker Identity Playbook is a practical guide for managing digital worker identities.
   url: "/playbooks/dw/"
   header: "/assets/playbooks/headers/playbook_05.webp"
@@ -52,23 +52,31 @@
 
 - title: Enterprise Single Sign-On Playbook
   type: Webpage
-  pubdate: 2021-11
+  pubdate: 2025-05
   description: The Enterprise SSO Playbook is a five-step playbook to aid agencies in planning an SSO or Identity Federation service.
   url: "/playbooks/sso/"
   header: "/assets/playbooks/headers/playbook_09.webp"
   target: _self
 
-- title: ICAM Governance Framework Version 1.0
+- title: ICAM Governance Framework Version 2.1
   type: PDF
-  pubdate: 2021-09
+  pubdate: 2026-03
   description: The ICAM Governance Framework is a tool to help agencies build and improve agency ICAM governance structures, processes, and policies.
   url: "/docs/playbook-identity-governance-framework.pdf"
   header: "/assets/playbooks/headers/playbook_07.webp"
   target: _self
 
+- title: Identity Fraud Detection Playbook
+  type: Webpage
+  pubdate: 2026-03
+  description: This playbook serves as a resource and provides a foundational understanding of identity fraud techniques, detection methods, and mitigation strategies.
+  url: "/playbooks/idfraud/"
+  header: "/assets/playbooks/headers/playbook_06.webp"
+  target: _self
+
 - title: Identity Lifecycle Management Playbook
   type: Webpage
-  pubdate: 2024-18
+  pubdate: 2024-06
   description: This playbook can aid agencies in understanding how to shift the focus from managing the lifecycle of credentials to the lifecycle of identities outlined in section III of OMB Memo 19-17.
   url: "/playbooks/ilm/"
   header: "/assets/playbooks/headers/playbook_08.webp"
@@ -82,21 +90,22 @@
   header: "/assets/playbooks/headers/playbook_11.webp"
   target: _self
 
-- title: Digitally Sign a Word Document
+- title: Digitally Sign a Microsoft Word Document for Submission to OFR
   type: Webpage
-  pubdate: 2018-03
-  description: This playbook will walk you through the steps for digitally signing a Microsoft Word document with your PIV credential or similar digital certificate.
+  pubdate: 2005-06
+  description: This guide will outline the benefits of digital signatures and will walk you through the various options and the specific steps for digitally signing a document in Microsoft Word using a PIV credential, delegated digital signature certificate, or another PKI-based digital signature certificate.
   url: "/playbooks/signword/"
   header: "/assets/playbooks/headers/playbook_01.webp"
   target: _self
 
-- title: Digitally Sign a Federal Register Document
-  type: Webpage
-  pubdate: 2022-08
-  description: This playbook will walk you through the procedures for digitally signing a Microsoft Word document for submission to the Office of the Federal Register using your PIV credential or similar digital certificate.
-  url: "/playbooks/signfedregister/"
-  header: "/assets/playbooks/headers/playbook_06.webp"
-  target: _self
+# Redirect created in /redirects to send users to the Digitally Sign a 
+# - title: Digitally Sign a Federal Register Document
+#   type: Webpage
+#   pubdate: 2022-08
+#   description: This playbook will walk you through the procedures for digitally signing a Microsoft Word document for submission to the Office of the Federal Register using your PIV credential or similar digital certificate.
+#   url: "/playbooks/signfedregister/"
+#   header: "/assets/playbooks/headers/playbook_06.webp"
+#   target: _self
 
 - title: Phishing-Resistant Authenticator Playbook
   type: Webpage

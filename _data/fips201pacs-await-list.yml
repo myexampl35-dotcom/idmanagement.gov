@@ -1,7 +1,7 @@
 # PACS Solutions Awaiting Approval
 # File: _data/fips201pacs-await-list.yml
 # Page Use: https://www.idmanagement.gov/fips201/
-# Updated on: 07/11/2024
+# Updated on: 03/05/2025
 # Updated by: Clayton Barnette
 #
 # Legend:
@@ -14,69 +14,81 @@
 
 # Template for new data:
 #
-# - position: [number]
+# - position: [number] (start at 1)
 #   solution: [string]
 #   aplnumbers: [numbers and chars]
 #   state: [string]
 #   teststatus: [string] 
+#
+# Note: for some strings, double ("") quotes are sometimes needed.
 
-- position: 1	
-  solution: NAPCO Security		
+# removed on 01-14-2026 per Nick
+# - position: 1
+#   solution: AMAG Symmetry Professional 9.8 + HID pivCLASS 5.30.84
+#   aplnumbers: 10047 & 10048
+#   state: Update
+#   teststatus: In queue
+# removed on 01-14-2026 per Nick
+# - position: 2
+#   solution: Gallagher PIV Command Centre vEL9.20 + HID pivCLASS 5.31.0
+#   aplnumbers: 10019 & 10020
+#   state: Update
+#   teststatus: In queue
+
+- position: 1 
+  solution: LenelS2 OnGuard 8.3 + HID pivCLASS 5.32.0
+  aplnumbers: 10112 & 10113
+  state: Update
+  teststatus: In-Progress
+
+- position: 2 
+  solution: Honeywell Pro-Watch 6.5.2 + HID pivCLASS 5.33
+  aplnumbers: 10063 & 10064
+  state: Update
+  teststatus: In-Progress
+
+- position: 3 
+  solution: AccessNsite 7.9 + HID pivCLASS 5.32.0
+  aplnumbers: 10043 & 10044
+  state: New
+  teststatus: In-Progress
+
+- position: 4 
+  solution: Motorola - Avigilon
   aplnumbers: New
   state: New
   teststatus: In queue
 
-- position: 2	
-  solution: AMAG Symmetry Professional + Identity One Validation System	
-  aplnumbers: 10143 & 10144
-  state: Update
-  teststatus: In queue
-
-- position: 3	
-  solution: Datawatch + HID pivCLASS
+- position: 5 
+  solution: Software House - CCURE pivClass
   aplnumbers: New
   state: New
   teststatus: In queue
 
-- position: 4	
-  solution: Kastle Systems CPS (EP) PACS and Validation Infrastructure
-  aplnumbers: 10116
-  state: New
-  teststatus: In queue
-
-- position: 5	
-  solution: AMAG Symmetry Professional + HID Global Validation System
-  aplnumbers: 10047 & 10048
-  state: Update
-  teststatus: In queue
-
-- position: 6	
-  solution: Gallagher PIV Command Centre +  HID Global Validation System for Gallagher Command Center
-  aplnumbers: 10019 & 10020
-  state: Update
-  teststatus: In queue
-
-- position: 7	
-  solution: Gallagher Command Centre PACS (13.02)
-  aplnumbers: 10114
-  state: Update
-  teststatus: In queue
-
-- position: 8	
-  solution: Identiv Velocity Security Management System (13.02)
-  aplnumbers: 10103
-  state: Update
-  teststatus: In queue
-
-- position: 9	
-  solution: Advantor Suite for Networks V6.2 + HID pivCLASS 5.28
+- position: 6 
+  solution: Siemens Government Technologies - SiPass
   aplnumbers: New
   state: New
   teststatus: In queue
 
-- position: 10	
-  solution: Software House C-Cure 9000 v3.003 (13.02)
-  aplnumbers: 10159
-  state: Update
+- position: 7 
+  solution: Galaxy Systems
+  aplnumbers: New
+  state: New
   teststatus: In queue
+
+- position: 8 
+  solution: HIRSCH Secure (Formerly Identiv)
+  aplnumbers: New
+  state: New
+  teststatus: In queue
+
+- position: 9 
+  solution: MDI Security Systems Inc.
+  aplnumbers: New
+  state: New
+  teststatus: In queue
+
+    
+
 

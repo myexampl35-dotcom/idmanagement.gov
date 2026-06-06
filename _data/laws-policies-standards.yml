@@ -1,3 +1,7 @@
+# Policy Matrix Laws, Policies, and Standards
+# File: laws-policies-standards.yml
+# Page Use: https://www.idmanagement.gov/
+#
 # yaml-language-server: $schema=https://github.com/GSA/idmanagement.gov/blob/staging/assets/schemas/laws-policies-standards-schema.json
 # &6USC1523
 #  type: Law
@@ -120,7 +124,7 @@
     retrieves by an individual's name or other personal identifier, such as a Social 
     Security Number.
   published: 1974-12-31
-  externalURL: "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title5-section552a&num=0&edition=prelim"
+  externalURL: "https://www.dodig.mil/Portals/48/Documents/Programs/Privacy%20Program/pa1974.pdf"
   authored-by:
     - *CONGRESS
   ficam-services:
@@ -373,7 +377,7 @@
   longName: "OMB Memo 05-24: Implementation of Homeland Security Presidential Directive (HSPD) 12 - Policy for a Common Identification Standard for Federal Employees and Contractors"
   published: 2005-08-05
   description: "This memorandum provides implementing instructions for the Directive (HSPD-12) and the Standard (FIPS-201)."
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2005/m05-24.pdf"
+  externalURL: "https://georgewbush-whitehouse.archives.gov/omb/memoranda/fy2005/m05-24.pdf"
   scope:
     - "Workforce Identity"
   authorized-by:
@@ -421,7 +425,7 @@
   longName: "OMB Memo 19-17: Enabling Mission Delivery through Improved Identity, Credential, and Access Management"
   description: "This memorandum sets forth the Federal Government's1 Identity, Credential, and Access Management (ICAM) policy"
   published: 2019-05-21
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/05/M-19-17.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/05/M-19-17.pdf"
   authored-by:
     - *OMB
   scope:
@@ -443,7 +447,7 @@
     this suggests use of Identity as a Service Providers and Shared Service Providers for PKI, as 
     discussed in the Cloud Identity Playbook.
   published: 2019-06-25
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/06/M-19-19-Data-Centers.pdf"
   authored-by:
     - *OMB
   authorized-by:
@@ -459,7 +463,7 @@
     information security, privacy, and management of information resources across all Federal 
     programs and services.
   published: 2016-07-28
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A130/a130revised.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a130/a130revised.pdf"
   authored-by:
     - *OMB
   ficam-services:
@@ -480,7 +484,7 @@
     for public web connections is Hypertext Transfer Protocol Secure (HTTPS). 
     Agencies must utilize PKI device certificates to protect their web servers.
   published: 2015-07-08
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2015/m-15-13.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2015/m-15-13.pdf"
   authored-by:
     - *OMB
 - &M1916
@@ -491,7 +495,7 @@
     This memorandum describes the process and desired outcomes for shared services such as PKI 
     Shared Service Providers (SSPs).
   published: 2019-04-26
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-16.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2019/04/M-19-16.pdf"
   authored-by:
     - *OMB
 - &SPRINGERMEMO
@@ -546,7 +550,7 @@
   shortName: "Credentialing Standards Memo 2020"
   longName: "Credentialing Standards Procedures for Issuing Personal Identity Verification Cards under HSPD-12 and New Requirement for Suspension or Revocation of Eligibility for Personal Identity Verification Credentials"
   description: >-
-    [T]he following credentialing standards procedures [...]
+    The following credentialing standards procedures
     promote defined goals in agency eligibility determinations to issue HSPD-12 personal
     identity verification (PIV) credentials for access to federally controlled facilities and
     information systems: the protection of the life, safety, property, or health of employees,
@@ -598,7 +602,7 @@
     with those requirements and to manage privacy risks, SAOPs are required to review agency [High Value Assets] 
     and identify those that create, collect, use, process, store, maintain, disseminate, disclose, or dispose of PII.
   published: 2018-12-10
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2018/12/M-19-03.pdf"
+  externalURL: "https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/12/M-19-03.pdf"
   authored-by:
     - *OMB
   ficam-services:
@@ -614,7 +618,7 @@
     This circular describes agency responsibilities for implementing the review, reporting, and 
     publication requirements of the Privacy Act of 1974 and related OMB policies.
   published: 2016-12-23
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/circulars/A108/omb_circular_a-108.pdf"
+  externalURL: "https://obamawhitehouse.archives.gov/sites/default/files/omb/assets/OMB/circulars/a108/omb_circular_a-108.pdf"
   authored-by:
     - *OMB
   authorized-by:
@@ -727,7 +731,7 @@
     The Enterprise Single Sign-On (SSO) Playbook is a practical guide to help federal agencies 
     implement or modernize an SSO service for federal employee access to government applications.
   published: 2021-02-12
-  externalURL: "https://playbooks.idmanagement.gov/playbooks/sso/"
+  externalURL: "https://www.idmanagement.gov/playbooks/sso/"
   authored-by:
     - *ICAMSC
     - *GSA
@@ -744,7 +748,7 @@
     several federal agencies, developed this ICAM Governance Framework as a tool to help
     agencies build and improve ICAM governance structures, processes, and policies.
   published: 2021-09-01
-  externalURL: "https://playbooks.idmanagement.gov/docs/playbook-identity-governance-framework.pdf"
+  externalURL: "https://www.idmanagement.gov/docs/playbook-identity-governance-framework.pdf"
   authored-by:
     - *ICAMSC
   ficam-services:
@@ -759,7 +763,7 @@
     Describes trust frameworks for identity federations, which provide a secure method for leveraging shared 
     identity credentials across communities of similarly-focused online service providers.
   published: 2018-01-12
-  externalURL: "https://csrc.nist.gov/publications/detail/nistir/8149/final"
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8149.pdf"
   authored-by:
     - *NIST
   ficam-services:
@@ -783,12 +787,13 @@
 - &SP180013
   type: Guidance
   shortName: "NIST SP 1800-13"
-  longName: "NIST SPECIAL PUBLICATION 1800-13A Mobile Application Single Sign-On: Improving Authentication for Public Safety First Responders"
+  longName: "NIST SPECIAL PUBLICATION 1800-13: A Mobile Application Single Sign-On: Improving Authentication for Public Safety First Responders"
   description: >-
     This NIST Cybersecurity Practice Guide describes how organizations can implement Mobile SSO
     technologies to enhance public safety mission capabilities by using standards-based
     commercially available or open-source products.
   published: 2021-08-25
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1800-13.pdf"
   authored-by:
     - *NIST
   ficam-services:
@@ -960,6 +965,7 @@
   description: >-
     This document specifies the profiles for X.509 certificates and certificate revocation lists (CRLs) 
     associated with CAs cross-certified with the Federal Bridge Certification Authority (FBCA).
+  externalURL: "https://www.idmanagement.gov/docs/fpki-x509-cert-profiles-fbca.pdf"
   published: 2022-10-18
   authored-by:
     - *FPKIPA
@@ -975,6 +981,7 @@
     Certificate Policy for the U.S. Federal PKI Common Policy Framework [COMMON] 
     and that have a trust path to the Federal Common Policy CA operated by the Federal PKI 
     Management Authority.
+  externalURL: "https://www.idmanagement.gov/docs/fpki-x509-cert-profile-common.pdf"
   published: 2022-09-30
   authored-by:
     - *FPKIPA
@@ -1032,8 +1039,8 @@
     credential service provider (CSP) reliably identifying themselves, thereby allowing the CSP to assert 
     that identification at an Identity Assurance Level (IAL). This document defines technical requirements 
     for each of the three IALs.
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63a/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63A-4.2pd.pdf"
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1054,8 +1061,8 @@
     result of the authentication process may be used locally by the system performing the authentication or 
     may be asserted elsewhere in a federated identity system. This document defines technical requirements 
     for each of the three Authentication Assurance Levels (AALs).
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63b/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.2pd.pdf "
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1077,8 +1084,8 @@
     focuses on the use of federated identity and the use of assertions to implement identity federations. 
     Federation allows a given CSP to provide authentication and (optionally) subscriber attributes to a number 
     of separately-administered relying parties. Similarly, relying parties may use more than one CSP.
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-63c/4/draft"
-  published: 2022-12-16
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63C-4.2pd.pdf"
+  published: 2024-08-21
   authored-by:
     - *NIST
   authorized-by:
@@ -1191,6 +1198,7 @@
     executed at various phases of the system development life cycle, are consistent with the security and 
     privacy controls in NIST Special Publication 800-53, Revision 5.
   published: 2022-01-25
+  externalURL: "https://csrc.nist.gov/pubs/sp/800/53/a/r5/final"
   authored-by:
     - *NIST
   authorized-by:
@@ -1317,12 +1325,12 @@
 - &SP800171
   type: Guidance
   shortName: NIST SP 800-171
-  longName: "NIST Special Publication 800-171 Revision 2: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
+  longName: "NIST Special Publication 800-171 Revision 3: Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations"
   description: >-
     This publication provides guidance for operators of non-federal (e.g. commercial) systems hosting Controlled 
     Unclassified Information (CUI). It includes several FICAM relevant requirements.
-  published: 2021-01-28
-  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171r2.pdf"
+  published: 2021-05-01
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171Ar3.pdf"
   authored-by:
     - *NIST
   authorized-by:
@@ -1472,10 +1480,10 @@
 - &SP80073
   type: Guidance
   shortName: "NIST SP 800-73"
-  longName: "NIST Special Publication 800-73-4: Interfaces for Personal Identity Verification"
+  longName: "NIST Special Publication 800-73-5: Interfaces for Personal Identity Verification"
   description: "This document, SP 800-73, contains the technical specifications to interface with the smart card to retrieve and use the PIV identity credentials."
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-73/4/final"
-  published: 2016-02-12
+  externalURL: "https://csrc.nist.gov/pubs/sp/800/73/pt1/5/final"
+  published: 2024-07-15
   authored-by:
     - *NIST
   subspec-of:
@@ -1557,9 +1565,9 @@
   type: Guidance
   shortName: "NIST SP 800-78"
   longName: "NIST Special Publication 800-78: Cryptographic Algorithms and Key Sizes for Personal Identity Verification"
-  description: "This document contains the technical specifications needed for the mandatory and optional cryptographic keys specified in FIPS 201-2 as well as the supporting infrastructure specified in FIPS 201-2 and the related NIST Special Publication 800-73-4, Interfaces for Personal Identity Verification [SP800-73], and NIST SP 800-76-2, Biometric Specifications for Personal Identity Verification [SP800-76], that rely on cryptographic functions."
-  externalURL: "https://csrc.nist.gov/publications/detail/sp/800-78/4/final"
-  published: 2015-05-29
+  description: "This document contains the technical specifications needed for the mandatory and optional cryptographic keys specified in FIPS 201-3, as well as the supporting infrastructure specified in FIPS 201-3 and the related NIST Special Publication (SP) 800-73, Interfaces for Personal Identity Verification, and SP 800-76, Biometric Specifications for Personal Identity Verification, which rely on cryptographic functions."
+  externalURL: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-78-5.pdf"
+  published: 2024-07-15
   authored-by:
     - *NIST
   subspec-of:
@@ -1636,7 +1644,7 @@
     the practical guidelines, users can reduce their risk exposure and become harder targets for 
     malicious threat actors.
   published: 2020-10-01
-  externalURL: "https://media.defense.gov/2020/Sep/22/2002502665/-1/-1/0/CSI_MULTIFACTOR_AUTHENTICATION_SOLUTIONS_UOO17091520.PDF"
+  externalURL: "https://media.defense.gov/2024/Jul/31/2003515137/-1/-1/0/MULTIFACTOR_AUTHENTICATION_SOLUTIONS_UOO17091520.PDF"
   authored-by:
     - *DOD
   authorized-by:
@@ -1660,20 +1668,21 @@
     - *ISC
   scope:
     - "Workforce Identity"
-- &PACSRFP
-  type: Guidance
-  shortName: "Enterprise Physical Access Control Systems (E-PACS) Recommended Procurement Language for RFPs"
-  longName: "Enabling Strong Authentication with Personal Identification Verification Cards: Public Key Infrastructure (PKI) in Enterprise Physical Access Control Systems (E-PACS) Recommended Procurement Language for RFPs"
-  description: >-
-    This document provides language for E-PACS related procurements to ensure compliance with applicable policies
-  published: 2015-02-24
-  externalURL: "https://www.idmanagement.gov/docs/pacs-pki-epacs-procurement.pdf"
-  authored-by:
-    - *GSA
-  authorized-by:
-    - *M1917
-  scope:
-    - "Workforce Identity"
+# Note: removed on 09/03/2025 - retired document, approved by Vanessa - cjb
+# - &PACSRFP
+#   type: Guidance
+#   shortName: "Enterprise Physical Access Control Systems (E-PACS) Recommended Procurement Language for RFPs"
+#   longName: "Enabling Strong Authentication with Personal Identification Verification Cards: Public Key Infrastructure (PKI) in Enterprise Physical Access Control Systems (E-PACS) Recommended Procurement Language for RFPs"
+#   description: >-
+#     This document provides language for E-PACS related procurements to ensure compliance with applicable policies
+#   published: 2015-02-24
+#   externalURL: "https://www.idmanagement.gov/docs/pacs-pki-epacs-procurement.pdf"
+#   authored-by:
+#     - *GSA
+#   authorized-by:
+#     - *M1917
+#   scope:
+#     - "Workforce Identity"
 - &FACILITYACCESSCONTROL
   type: Guidance
   shortName: "FACILITY ACCESS CONTROL"
@@ -1682,7 +1691,7 @@
     This document provides guidance for federal Executive Branch departments and agencies regarding 
     access control requirements and options for individuals entering federally occupied space
   published: 2020-12-17
-  externalURL: "https://www.cisa.gov/sites/default/files/publications/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice.pdf"
+  externalURL: "https://www.cisa.gov/sites/default/files/2025-02/Facility%20Access%20Control%20-%20An%20Interagency%20Security%20Committee%20Best%20Practice-02-20.pdf"
   authored-by:
     - *ISC
   ficam-services:
@@ -1709,7 +1718,7 @@
   shortName: "M-21-04"
   longName: "OMB Memo 21-04: Modernizing Access to and Consent for Disclosure of Records Subject to the Privacy Act"
   description: "This Memorandum provides guidance for Federal agencies to modernize the processes by which individuals may request access to, and consent to the disclosure of, records protected under the Privacy Act of 1974. As required by the Creating Advanced Streamlined Electronic Services for Constituents Act of 2019 ('CASES Act'), this guidance outlines the responsibilities of agencies for accepting access and consent forms provided in a digital format from individuals who are properly identity-proofed and authenticated."
-  externalURL: "https://www.whitehouse.gov/wp-content/uploads/2020/11/M-21-04.pdf"
+  externalURL: "https://trumpwhitehouse.archives.gov/wp-content/uploads/2020/11/M-21-04.pdf"
   authored-by:
     - *OMB
   authorized-by:
@@ -1725,7 +1734,7 @@
   longName: "Cloud Identity Playbook"
   description: "This Cloud Identity Playbook is a practical guide to assist federal agencies as they start to or further expand the use of workforce Identity, Credential, and Access Management (ICAM) services in a cloud operating model."
   published: 2022-12-29
-  externalURL: "https://playbooks.idmanagement.gov/playbooks/cloud/"
+  externalURL: "https://www.idmanagement.gov/playbooks/cloud/"
   authored-by:
     - *ICAMSC
     - *GSA
@@ -1743,7 +1752,7 @@
   longName: "Digital Identity Risk Assessment Playbook"
   description: "This Digital Identity Risk Assessment playbook helps federal agency Chief Information Officer (CIO) and Chief Information Security Officer (CISO) teams and business application owners to update and maintain consistent processes; determine whether an agency application requires a DIRA; integrate DIRA into agency Risk Management Framework (RMF) processes; and learn practices to implement DIRA processes."
   published: 2022-12-29
-  externalURL: "https://playbooks.idmanagement.gov/playbooks/dira/"
+  externalURL: "https://www.idmanagement.gov/playbooks/dira/"
   authored-by:
     - *ICAMSC
     - *GSA

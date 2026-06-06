@@ -21,12 +21,12 @@ layout: base
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
-<div class="usa-section">
+<div class="usa-section gsa-usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap flex-align-start">
       {% assign sidenav = site.data.navigation[page.sidenav] | default: page.sidenav %}
       {% if sidenav %}
-        <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %}">
+        <div class="usa-layout-docs__sidenav desktop:grid-col-3{% if page.sticky_sidenav %} usa-sticky-sidenav{% endif %} gsa-mobile">
           {% include sidenav.html links=sidenav %}
         </div>
       {% endif %}

@@ -14,11 +14,11 @@ The FICAM program supports federal agencies through the entire identity manageme
 
 ## Who Manages This Website?
 
-This website is managed by the Identity Assurance and Trusted Access Division of the Office of Technology Policy, Office of Government-wide Policy, General Services Administration (GSA). Our mailing address is:
+This website is managed by the Federal Identity and Cybersecurity Division of the Office of Technology Policy, Office of Government-wide Policy, General Services Administration (GSA). Our mailing address is:
 
 U.S. General Services Administration<br>
 Office of Government-wide Policy<br>
 1800 F Street, NW<br>
 Washington, DC 20405
 
-If you have questions about the FICAM program, or this website, please email icam at gsa.gov.
+If you have questions about the FICAM program, or this website, please email [icam@gsa.gov](mailto:icam@gsa.gov){:class="usa-link"}.

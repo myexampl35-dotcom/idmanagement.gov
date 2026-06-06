@@ -37,10 +37,10 @@ heading:
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: /assets/img/logo-gsa.png
+  - src: /assets/logo/logo-gsa.png
     alt: General Services Administration
     href: https://www.gsa.gov
-  - src: /assets/img/logo-cio.png
+  - src: /assets/logo/logo-cio.png
     alt: Federal CIO Council
     href: https://www.cio.gov
 

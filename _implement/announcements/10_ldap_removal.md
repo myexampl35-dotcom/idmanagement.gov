@@ -20,11 +20,11 @@ The FPKIMA team is turning off its sole remaining LDAP repository services on 10
 **Mitigating Factors:**
 The proposed action should not impact FPKI relying parties, provided they are properly configured to validate end entity certificates up to the Federal Common Policy CA G2 (FCPCAG2).  This action is further reinforced given the following considerations:
 
-- The associated HTTP repository is still available - [http://http.fpki.gov/fcpca/caCertsIssuedByfcpca.p7c](http://http.fpki.gov/fcpca/caCertsIssuedByfcpca.p7c){:class="usa-link usa-link--external"}
+- The associated HTTP repository is still available - [http://http.fpki.gov/fcpca/caCertsIssuedByfcpca.p7c](http://http.fpki.gov/fcpca/caCertsIssuedByfcpca.p7c){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"}
 - LDAP support was deprecated in 2013, and the last certificate issued by the old FCPCA with an FPKI LDAP URI expired in 2020 
 - The old FCPCA Self-signed root certificate expires in 2030 and contains one LDAP URI in the SIA to a Directory entry that contains no certificates
 
-As a result, of these mitigating factors, there should be no impacts to any relying parties that have successfully migrated to the [FCPCAG2 trust anchor]({{site.baseurl}}/university/fpki/#certification-authorities), nor is there an ability to dynamically conduct full path discovery and validation of an end entity certificate to the old FCPCA, per the previous migration effort.
+As a result, of these mitigating factors, there should be no impacts to any relying parties that have successfully migrated to the [FCPCAG2 trust anchor]({{site.baseurl}}/university/fpki/#certification-authorities){:rel="noopener noreferrer"}{:class="usa-link"}, nor is there an ability to dynamically conduct full path discovery and validation of an end entity certificate to the old FCPCA, per the previous migration effort.
 
 If you have any questions regarding this action please contact:
-fpki dash help at gsa dot gov
+[fpki-help@gsa.gov](mailto:fpki-help@gsa.gov){:class="usa-link"}

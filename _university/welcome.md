@@ -31,18 +31,18 @@ This University section serves as a knowledge base for all things identity. Expl
 
 A number of 101 guides are available to understand identity topics in general or specific to the federal government.
 
-1. [Public Key Infrastructure]({{site.baseurl}}/university/pki)
-2. [Federal Public Key Infrastructure]({{site.baseurl}}/university/fpki)
-3. [Physical Access Control Systems]({{site.baseurl}}/university/pacs)
-4. [Personal Identity Verification Credential]({{site.baseurl}}/university/piv)
-5. [Personal Identity Verification Interoperable Credential]({{site.baseurl}}/university/pivi)
-6. [ICAM Program Management]({{site.baseurl}}/university/pm)
+1. [Public Key Infrastructure]({{site.baseurl}}/university/pki){:class="usa-link"}
+2. [Federal Public Key Infrastructure]({{site.baseurl}}/university/fpki){:class="usa-link"}
+3. [Physical Access Control Systems]({{site.baseurl}}/university/pacs){:class="usa-link"}
+4. [Personal Identity Verification Credential]({{site.baseurl}}/university/piv){:class="usa-link"}
+5. [Personal Identity Verification Interoperable Credential]({{site.baseurl}}/university/pivi){:class="usa-link"}
+6. [ICAM Program Management]({{site.baseurl}}/university/pm){:class="usa-link"}
 
 ## Training
 
-This is a list of available courses with a focus for free, on-demand training. Vendor offered training does not mean an endorsement of a specific product or service. Suggest new courses by [contacting us]({{site.baseurl}}/contact-us).
+This is a list of available courses with a focus for free, on-demand training. Vendor offered training does not mean an endorsement of a specific product or service. Suggest new courses by [contacting us]({{site.baseurl}}/contact-us){:rel="noopener noreferrer"}{:class="usa-link"}.
 
-1. The [Federal Virtual Training Environment](https://fedvte.usalearning.gov/coursecat_external.php){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a free training resource for all federal employees. Here is a short list of some of the identity courses that are offered.
+1. The [Federal Virtual Training Environment](https://niccs.cisa.gov/education-training/cisa-learning){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} is a free training resource for all federal employees. Here is a short list of some of the identity courses that are offered.
    1. Micro Learn: IdAM- Identity and Access Management with the CDM Agency Dashboard
    2. CDM 201 – Identity and Access Management Capabilities within the CDM Agency Dashboard
 2. The [CIO Council Cloud and Infrastructure Community of Practice](https://www.cio.gov/about/members-and-leadership/cloud-infrastructure-cop/){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} offer [quarterly training](https://community.max.gov/display/Egov/Cloud+Training+Resources){:target="_blank"}{:rel="noopener noreferrer"}{:class="usa-link usa-link--external"} focused on cloud and security certification boot camps. The courses change every quarter. Here is a short list of previous courses offered.

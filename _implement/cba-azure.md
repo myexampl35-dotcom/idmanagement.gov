@@ -8,8 +8,8 @@ description: This guide directs agencies through planning, configuring, testing,
 sidenav: implement
 sticky_sidenav: true
 
-pubdate: March 2024  
-version: 1.0
+pubdate: March 2026  
+version: 2.0
 
 subnav:
   - text: Why Certificate Based Authentication
@@ -33,9 +33,9 @@ subnav:
 ---
 
 
-<img src="{{site.baseurl}}/assets/img/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
-<img src="{{site.baseurl}}/assets/img/logo-opm.png" width="64" height='64' align="left" alt="U.S. Office of Personnel Management Logo"> 
-<img src="{{site.baseurl}}/assets/img/logo-ed.png" width="64" height='64' align="left" alt="U.S. Department of Education Logo">
+<img src="{{site.baseurl}}/assets/logo/logo-gsa.png" width="64" height='64' align="left" alt="U.S. General Services Administration Logo"> 
+<img src="{{site.baseurl}}/assets/logo/logo-opm.png" width="64" height='64' align="left" alt="U.S. Office of Personnel Management Logo"> 
+<img src="{{site.baseurl}}/assets/logo/logo-ed.png" width="64" height='64' align="left" alt="U.S. Department of Education Logo">
 <br><br><br>
   
 <div class="usa-accordion usa-accordion--bordered">
@@ -55,6 +55,11 @@ subnav:
       </tr>
       </thead>
       <tr>
+        <th scope='row'>2.0</th>
+        <td>03/17/2026</td>
+        <td>Reviewed and validated</td>
+      </tr>
+      <tr>
         <th scope='row'>1.0</th>
         <td>03/12/2024</td>
         <td>Initial draft.</td>
@@ -63,7 +68,7 @@ subnav:
   </div>
 </div>
 
-The U.S. General Services Administration Office of Government-wide Policy Identity Assurance and Trusted Access Division, the Office of Personnel Management, and the Department of Education developed this guide to help Identity, Credential, and Access Management (ICAM) program managers and Microsoft Entra ID administrators implement Certificate-based Authentication with Microsoft Entra ID. This guide identifies steps for planning, configuring, testing, and implementing a Certificate-Based Authentication deployment with Microsoft Entra Hybrid joined devices to leverage a **device-level signal** to determine data authorization. OMB Memo 22-09, Federal Zero Trust Strategy, tasks agencies to work to incorporate at least one device-level signal alongside identity information about the authenticated user.
+The U.S. General Services Administration Office of Government-wide Policy Federal Identity and Cybersecurity Division, the Office of Personnel Management, and the Department of Education developed this guide to help Identity, Credential, and Access Management (ICAM) program managers and Microsoft Entra ID administrators implement Certificate-based Authentication with Microsoft Entra ID. This guide identifies steps for planning, configuring, testing, and implementing a Certificate-Based Authentication deployment with Microsoft Entra Hybrid joined devices to leverage a **device-level signal** to determine data authorization. OMB Memo 22-09, Federal Zero Trust Strategy, tasks agencies to work to incorporate at least one device-level signal alongside identity information about the authenticated user.
 1. Device-level signal - Compliant device.
 2. Identity information - User's certificate
 
@@ -140,7 +145,7 @@ There are four major steps involved with configuring CBA.
     <p class="usa-alert__text">
       The Federal PKI maintains a list of 
       <a class="usa-link" href="https://www.idmanagement.gov/fpki/notifications/#piv-issuer-information" target="_blank" rel="noopener noreferrer">the lastest PIV certifications authorities</a>
-      . Contact ICAM at GSA.gov If you need help finding the right CA or think one needs to be updated.
+      . Contact <a href="mailto:icam@gsa.gov">icam@gsa.gov</a> If you need help finding the right CA or think one needs to be updated.
     </p>
   </div>
 </div>
