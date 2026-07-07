@@ -25,7 +25,7 @@ This project is in the worldwide [public domain](/_pages/license.md/).
 > All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
 
 ## Special Thanks
-This site is based on GitHub Pages and Jekyll templates. 
+This site is based on GitHub Pages and Jekyll templates.& Sanaa Youssef 
 
 Special thanks to the teams at [18F](https://18f.gsa.gov/), [18F Pages](https://pages.18f.gov/), and [US Digital Services Playbooks](https://playbook.cio.gov/) for their open and transparent model which benefits citizens, government, and technology.
- 
+ https://example.com (myexample35@gmail.com) 
